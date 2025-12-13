@@ -8,6 +8,10 @@ header {
     width: 100%;
 }
 
+header nav {
+    display: flex;
+    gap: 40px;
+}
 header nav .header-links {
     text-decoration: none;
     color: #fff;
@@ -15,7 +19,6 @@ header nav .header-links {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    gap: 5px;
 }
 
 header .sign-in {
