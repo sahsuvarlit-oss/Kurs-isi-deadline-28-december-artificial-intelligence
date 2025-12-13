@@ -1,6 +1,7 @@
 body {
     background: #0a121f;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -12,6 +13,7 @@ header nav {
     display: flex;
     gap: 40px;
 }
+
 header nav .header-links {
     text-decoration: none;
     color: #fff;
@@ -35,4 +37,185 @@ header .sign-in {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+}
+
+.sec1 .article1 {
+    color: #3A68B8;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sec1 .article2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.sec1 h1 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    gap: 114px;
+    
+
+}
+
+.sec1 .sag-teref img {
+    height: 450px;
+
+
+}
+
+.sec1 .sol-teref {
+    padding-left: 30px;
+}
+
+.sec1 .buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.sec1 .buttons .getstarted {
+    background-color: #3A68B8;
+    text-decoration: none;
+    color: #fff;
+    height: 57px;
+    width: 171px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.sec1 .buttons .watchvideo {
+    background-color: #3A68B8;
+    text-decoration: none;
+    color: #fff;
+    height: 57px;
+    width: 217px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+
+.sec2 .logos {
+    display: flex;
+    justify-content: center;
+    padding-top: 89px;
+    gap: 71.36px;
+}
+
+
+.sec3 .sol-teref2 img {
+    width: 725px;
+    height: 520px;
+    padding-top: 130px;
+}
+
+.sec3 {
+    display: flex;  
+}
+
+.sec3 .sag-teref2 {
+    padding-top: 308px;
+    padding-left: 68px;
+    padding-right: 20px;
+}
+
+.sec3 .sag-teref2 h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 39px;
+
+}
+
+.sec3 .sag-teref2 article {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sec3 .sag-teref2 a {
+    text-decoration: none;
+    background-color: #3A68B8;
+    color: #fff;
+    width: 150px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.sec4 .group  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    animation: spin 15s infinite linear;
+}
+
+.card {
+    flex: 0 0 5em;
+    height: 5em;
+    padding: 1em;
+    background:cornflowerblue ;
+    font-size: 3rem;
+    border-radius: 2em;
+    text-align: center;
+    align-content: center;
+}
+
+.carousel {
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    gap: 1em;
+    overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
 }
