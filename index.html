@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artificial Intelligence</title>
+
+    <!-- Fonts & Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -11,19 +16,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./public/css/style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Artificial Intelligence</title>
   </head>
   <body>
-    <header>
-      <img src="./public/images/logo.svg" alt="Artificial-intelligence-logo" /> 
+    <!-- mobile menu yaradilma -->
 
-      <nav>
+    <div class="mobil-menyu">
+      <i class="fa-solid fa-xmark"></i>
+      <nav class="mobil-menyu-links">
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+        <a href="">Projects</a>
+      </nav>
+      <a href="#" class="sign-in">Sign In</a>
+    </div>
+
+    <!-- mobile menu yaradilma -->
+
+    <!-- HEADER -->
+    <header>
+      <img
+        src="./public/images/logo.svg"
+        alt="Artificial Intelligence Logo"
+        class="header-logo"
+      />
+
+      <nav class="header-nav">
         <a href="#" class="header-links">Home</a>
         <a href="#" class="header-links">About</a>
         <a href="#" class="header-links">Services</a>
@@ -31,82 +55,286 @@
         <a href="#" class="header-links">Contact</a>
       </nav>
 
-      <a href="#" class="sign-in">Sign In</a>
+      <i class="fa-solid fa-bars"></i>
+      <a href="#" class="sign-in-comp">Sign In</a>
     </header>
 
+    <!-- SECTION 1 -->
     <section class="sec1">
-      <div class="sol-teref">
+      <div class="sec1-left">
+        <p class="article1">Next Generation Platform</p>
+        <h1>Artificial Intelligence & Cyber Security</h1>
+        <p class="article2">
+          Lorem ipsum is placeholder text commonly used in the graphic, print,
+          and publishing industries for previewing layouts and visual mockups.
+        </p>
 
-        <article class="article1">Next genaretion platform</article>
+        <div class="buttons">
+          <a href="#" class="getstarted">Get Started</a>
+          <a href="#" class="watchvideo">
+            <img src="./public/images/watch-video.svg" alt="Watch Video" />
+            Watch Video
+          </a>
+        </div>
+      </div>
 
-        <h1>Artificial intelligence & Syber security</h1>
-        <article class="article2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</article> <br>
-    <nav class="buttons">
-        <a href="#" class="getstarted" > Get Started</a>
-       
-        <a href="#" class="watchvideo">  <img src="./public/images/watch-video.svg" alt="watch-video-button"> Watch Video</a>
-    </nav>
-    
-    </div>
-
-
-
-
-
-
-
-      <div class="sag-teref">
-        <img src="./public/images/section1-image.svg" alt="">
+      <div class="sec1-right">
+        <img src="./public/images/section1-image.svg" alt="Hero Image" />
       </div>
     </section>
 
+    <!-- SECTION 2 (Logos) -->
     <section class="sec2">
-      
       <div class="logos">
-        <img src="./public/images/logoipsum1.svg" alt="" class="logo1">
-        <img src="./public/images/logoipsum2.svg" alt="" class="logo2">
-        <img src="./public/images/logoipsum3.svg" alt="" class="logo3">
-        <img src="./public/images/logoipsum4.svg" alt="" class="logo4">
+        <img src="./public/images/logoipsum1.svg" alt="" />
+        <img src="./public/images/logoipsum2.svg" alt="" />
+        <img src="./public/images/logoipsum3.svg" alt="" />
+        <img src="./public/images/logoipsum4.svg" alt="" />
+        <!-- logolarin tekrarlanmasi carusel ucun (sonsuz tekrarlanma) -->
+        <img src="./public/images/logoipsum1.svg" alt="" />
+        <img src="./public/images/logoipsum2.svg" alt="" />
+        <img src="./public/images/logoipsum3.svg" alt="" />
+        <img src="./public/images/logoipsum4.svg" alt="" />
       </div>
     </section>
 
+    <!-- SECTION 3 -->
     <section class="sec3">
-      <div class="sol-teref2"> 
-<img src="./public/images/sec2-sol-img.svg" alt="sec2img">
-
+      <div class="sec3-left">
+        <img src="./public/images/sec2-sol-img.svg" alt="Section 3 Image" />
       </div>
-
-
-
-
-      <div class="sag-teref2">
-        <h2>Apply AI, Deep Learning and Data Sciece to solve</h2>
-        <article>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</article> <br>
+      <div class="sec3-right">
+        <h2>Apply AI, Deep Learning and Data Science to Solve</h2>
+        <p>
+          Lorem ipsum is placeholder text commonly used in the graphic, print,
+          and publishing industries for previewing layouts and visual mockups.
+        </p>
         <a href="#">Learn More</a>
-
-
       </div>
     </section>
 
+    <!-- SECTION 4 (Carousel) -->
     <section class="sec4">
       <div class="carousel">
         <div class="group">
-      <div class="card">1</div>
-      <div class="card">2</div>
-      <div class="card">3</div>
-      <div class="card">4</div>
-      <div class="card">5</div>
-      
+          <div class="card">
+            <img src="./public/images/carousel1.svg" />
+            <h3>Naxly as the Winners in Global Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
+          <div class="card">
+            <img src="./public/images/carousel2.svg" />
+            <h3>Expert Perspective Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
+          <div class="card">
+            <img src="./public/images/carousel3.svg" />
+            <h3>Business Perspective Global Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
+          <div class="card">
+            <img src="./public/images/carousel4.svg" />
+            <h3>Value for Results in Global Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
+          <div class="card">
+            <img src="./public/images/carousel5.svg" />
+            <h3>Global Experience in Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
+
+          <!-- tekrar carusel ucun -->
+          <div class="card">
+            <img src="./public/images/carousel1.svg" />
+            <h3>Naxly as the Winners in Global Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
+          <div class="card">
+            <img src="./public/images/carousel2.svg" />
+            <h3>Expert Perspective Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
+          <div class="card">
+            <img src="./public/images/carousel3.svg" />
+            <h3>Business Perspective Global Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
+          <div class="card">
+            <img src="./public/images/carousel4.svg" />
+            <h3>Value for Results in Global Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
+          <div class="card">
+            <img src="./public/images/carousel5.svg" />
+            <h3>Global Experience in Agency Awards</h3>
+            <article>
+              Lorem ipsum is placeholder text commonly used in print.
+            </article>
+          </div>
         </div>
-        <div aria-hidden="" class="group">
-          <div class="card">1</div>
-          <div class="card">2</div>
-          <div class="card">3</div>
-          <div class="card">4</div>
-          <div class="card">5</div>
-          
-            </div>
+      </div>
+
+      <img
+        src="./public/images/carousel-3noqte.svg"
+        alt="3 Dots"
+        class="ucnoqte"
+      />
+    </section>
+
+
+
+    
+    <!-- SECTION 5 -->
+    <section class="sec5">
+      <div class="sec5-left">
+        <h2>What our clients say about our awesome solutions</h2>
+        <article>
+          To take a trivial example, which of us ever undertakes laborious
+          physical exercise, except to obtain some advantage from it who do not
+          know.
+        </article>
+        <article>
+          Lorem ipsum is placeholder text commonly used in the graphic, print,
+          and publishing.
+        </article>
+        <article>
+          Lorem ipsum is placeholder previewing layouts and visual mockups.
+        </article>
+        <article>
+          Lorem ipsum is placeholder text commonly used in the graphic, print,
+          and publishing industries for previewing layouts and visual mockups.
+        </article>
+      </div>
+      <div class="sec5-right">
+        <img src="./public/images/section5img.svg" alt="Section 5 Image" />
       </div>
     </section>
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer bg-dark">
+      <div class="container">
+        <div class="footer-div">
+          <div class="footer-sol-teref">
+            <img
+              src="./public/images/robot.svg"
+              alt=""
+              class="robot-footer-logo"
+            />
+            <h5>Artificial Intelligence</h5>
+            <article>
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and layouts and visual mockups.
+            </article>
+
+            <div class="contact-links">
+              <a href="mailto:company@gmail.com">
+                <img src="./public/images/mektub-footer.svg" alt="" />
+                company@gmail.com</a
+              >
+              <a href="tel:+994603321233">
+                <img src="./public/images/telefon-footer.svg" alt="" /> Phone:
+                (064) 332-1233</a
+              >
+              <address>
+                <img src="./public/images/location-footer.svg" alt="" /> 450
+                Wall Street, USA, New York
+              </address>
+            </div>
+          </div>
+
+          <div class="orta">
+            <h5>INFORMATION</h5>
+            <a href="">New collection</a>
+            <a href="">About Store</a>
+            <a href="">Contact Us</a>
+            <a href="">Latest News</a>
+            <a href="">Our Sitemap</a>
+            <a href="">Orders History</a>
+          </div>
+
+          <div class="orta">
+            <h5>FOOTER MENU</h5>
+            <a href="">Instagram profile</a>
+            <a href="">New Collection</a>
+            <a href="">Contact Us</a>
+            <a href="">Latest News</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Purchase Theme</a>
+          </div>
+
+          <div class="orta">
+            <h5>USEFUL LINKS</h5>
+            <a href="">Instagram profile</a>
+            <a href="">New Collection</a>
+            <a href="">Contact Us</a>
+            <a href="">Latest News</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Purchase Theme</a>
+          </div>
+
+          <div class="footer-sag-teref">
+            <h5>About the store</h5>
+            <article>
+              Lorem ipsum is placeholder text commonly used in the graphic,
+              print, and layouts and visual mockups.
+            </article>
+            <a href="www.company.com">www.company.com</a>
+
+            <nav class="footer-nav-links">
+              <a href="">
+                <img src="./public/images/facebook.svg" alt="anvarkhaliddcom" />
+              </a>
+              <a href="">
+                <img
+                  src="./public/images/insta.svg"
+                  alt="Anvar Mizanfarli, MCT"
+                />
+              </a>
+              <a href="">
+                <img src="./public/images/twitter.svg" alt="" />
+              </a>
+              <a href="">
+                <img src="./public/images/linkedln.svg" alt="" />
+              </a>
+              <a href="">
+                <img src="./public/images/youtube.svg" alt="" />
+              </a>
+            </nav>
+
+            <select name="" id="languages">
+              <option value="">
+                <img src="./public/images/globe.svg" alt="" /> English
+              </option>
+              <option value="">Azerbaijani</option>
+              <option value="">Russian</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./public/Javascript/script.js"></script>
   </body>
 </html>
